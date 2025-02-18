@@ -4,7 +4,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 sm:p-20 font-sans">
+    <div
+      className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 sm:p-20 font-sans 
+                 bg-[url('/portada.png')] bg-cover bg-center"
+    >
       {/* Encabezado con navegación */}
       <header className="w-full flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold">Mi Portfolio</h1>
@@ -26,7 +29,7 @@ export default function Home() {
       {/* Contenido principal */}
       <main className="flex flex-col items-center gap-8">
         <Image
-          src="/mi-foto.jpg"  // Reemplaza con la ruta de tu imagen personal
+          src="/moon.png"
           alt="Mi Foto"
           width={150}
           height={150}
@@ -34,9 +37,7 @@ export default function Home() {
         />
         <h2 className="text-2xl">¡B I E N V E N I D O!</h2>
         <p className="text-center max-w-xl">
-          Soy Julieta!,  desarrollador Full Stack apasionado por crear
-          soluciones web modernas y escalables. Aquí encontrarás algunos de mis
-          proyectos y experiencias.
+          E N J O Y  THE  J O U R N E Y
         </p>
         <div className="flex gap-4">
           <Link
