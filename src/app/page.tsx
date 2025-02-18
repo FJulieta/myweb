@@ -32,7 +32,7 @@ export default function Home() {
           height={150}
           className="rounded-full"
         />
-        <h2 className="text-2xl">¡Bienvenido a mi Portfolio!</h2>
+        <h2 className="text-2xl">¡B I E N V E N I D O!</h2>
         <p className="text-center max-w-xl">
           Soy Julieta!,  desarrollador Full Stack apasionado por crear
           soluciones web modernas y escalables. Aquí encontrarás algunos de mis
